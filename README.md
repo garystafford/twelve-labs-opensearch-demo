@@ -1,6 +1,6 @@
 # Multi-Vector Semantic Search: Advanced Video Search with TwelveLabs and Amazon OpenSearch
 
-How TwelveLabs AI Models and Amazon OpenSearch Serverless enable multi-vector semantic and hybrid search for video content.
+Code for the blog post, [Multi-Vector Semantic Search: Advanced Video Search with TwelveLabs and Amazon OpenSearch](https://garystafford.medium.com/multi-vector-semantic-search-advanced-video-search-with-twelve-labs-and-amazon-opensearch-7b81ba52c373). How TwelveLabs AI Models and Amazon OpenSearch Serverless enable multi-vector semantic and hybrid search for video content.
 
 ![Architecture](twelve_labs_bedrock.png)
 
