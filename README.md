@@ -35,3 +35,7 @@ Clone the repository:
 git clone https://github.com/garystafford/twelve-labs-opensearch-demo.git
 cd twelve-labs-opensearch-demo
 ```
+
+---
+
+_The contents of this repository represent my viewpoints and not of my past or current employers, including Amazon Web Services (AWS). All third-party libraries, modules, plugins, and SDKs are the property of their respective owners._
