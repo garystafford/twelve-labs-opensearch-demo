@@ -36,7 +36,7 @@ git clone https://github.com/garystafford/twelve-labs-opensearch-demo.git
 cd twelve-labs-opensearch-demo
 ```
 
-Create a Python virtual environment
+Create a Python virtual environment for the Jupyter Notebook:
 
 ```bash
 python -m pip install virtualenv -Uqqq
