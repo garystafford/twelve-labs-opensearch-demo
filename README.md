@@ -44,6 +44,10 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
+Access Jupyter Notebook for all code:
+
+[twelve-labs-demo-nested-public.ipynb](twelve-labs-demo-nested-public.ipynb)
+
 ---
 
 _The contents of this repository represent my viewpoints and not those of my past or current employers, including Amazon Web Services (AWS). All third-party libraries, modules, plugins, and SDKs are the property of their respective owners._
