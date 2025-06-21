@@ -36,6 +36,14 @@ git clone https://github.com/garystafford/twelve-labs-opensearch-demo.git
 cd twelve-labs-opensearch-demo
 ```
 
+Create a Python virtual environment
+
+```bash
+python -m pip install virtualenv -Uqqq
+python -m venv .venv
+source .venv/bin/activate
+```
+
 ---
 
 _The contents of this repository represent my viewpoints and not those of my past or current employers, including Amazon Web Services (AWS). All third-party libraries, modules, plugins, and SDKs are the property of their respective owners._
