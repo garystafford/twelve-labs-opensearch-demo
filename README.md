@@ -29,15 +29,15 @@ Code for the Medium blog post, [Multi-Vector Semantic Search: Advanced Video Sea
 
 ### Installation
 
-Clone the repository:
+Clone the repository and create the required directories:
 
 ```bash
 git clone https://github.com/garystafford/twelve-labs-opensearch-demo.git
 cd twelve-labs-opensearch-demo
 
+mkdir -p "videos/pexels"
 mkdir -p "output/pexels"
 mkdir -p "documents/pexels"
-mkdir -p "videos/pexels"
 ```
 
 Create a Python virtual environment for the Jupyter Notebook:
