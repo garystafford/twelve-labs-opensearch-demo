@@ -48,6 +48,8 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
+### Run the Code
+
 Access the Jupyter Notebook for all code:
 
 [twelve-labs-demo-nested-public.ipynb](twelve-labs-demo-nested-public.ipynb)
