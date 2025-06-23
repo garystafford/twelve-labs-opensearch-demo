@@ -34,6 +34,10 @@ Clone the repository:
 ```bash
 git clone https://github.com/garystafford/twelve-labs-opensearch-demo.git
 cd twelve-labs-opensearch-demo
+
+mkdir -p "output/pexels"
+mkdir -p "documents/pexels"
+mkdir -p "videos/pexels"
 ```
 
 Create a Python virtual environment for the Jupyter Notebook:
