@@ -22,10 +22,10 @@ Code for the Medium blog post, [Multi-Vector Semantic Search: Advanced Video Sea
 
 ### Prerequisites
 
-- Python 3.7+
+- Python 3.12+
 - AWS credentials
-- Amazon OpenSearch Collection
-- Twelve Labs API key
+- Amazon OpenSearch Serverless collection
+- TwelveLabs API key
 
 ### Installation
 
