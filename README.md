@@ -43,12 +43,12 @@ mkdir -p "documents/pexels"
 Create a Python virtual environment for the Jupyter Notebook:
 
 ```bash
-python -m pip install virtualenv -Uqqq
+python -m pip install virtualenv -Uq
 python -m venv .venv
 source .venv/bin/activate
 ```
 
-Access Jupyter Notebook for all code:
+Access the Jupyter Notebook for all code:
 
 [twelve-labs-demo-nested-public.ipynb](twelve-labs-demo-nested-public.ipynb)
 
