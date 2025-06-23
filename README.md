@@ -14,8 +14,8 @@ Code for the Medium blog post, [Multi-Vector Semantic Search: Advanced Video Sea
 │   ├── pexels/
 ├── videos/                               # Source videos
 │   ├── pexels/
+├── sample_document.json                  # Sample OpenSearch document
 └── twelve-labs-demo-nested-public.ipynb  # All code for blog post demonstration
-
 ```
 
 ## Usage Instructions
