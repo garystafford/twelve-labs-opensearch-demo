@@ -27,7 +27,7 @@ Code for the Medium blog post, [Multi-Vector Semantic Search: Advanced Video Sea
 - Amazon OpenSearch Serverless collection
 - TwelveLabs API key
 
-The Notebook will require the following environment variables:
+Have the following environment variables ready for Notebook:
 
 ```bash
 # AWS Credentials (or modify code to use alternative authentication method)
