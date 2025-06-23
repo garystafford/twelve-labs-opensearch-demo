@@ -27,6 +27,22 @@ Code for the Medium blog post, [Multi-Vector Semantic Search: Advanced Video Sea
 - Amazon OpenSearch Serverless collection
 - TwelveLabs API key
 
+The Notebook will require the following environment variables:
+
+```bash
+# AWS Credentials (or modify code to use alternative authentication method)
+AWS_REGION=<Your AWS Region>
+AWS_ACCESS_KEY_ID=<Your AWS Access Key ID>
+AWS_SECRET_ACCESS_KEY=<Your AWS Secret Access Key>
+AWS_SESSION_TOKEN=<Your AWS Session Token>
+
+# TwelveLabs' API Key
+TL_API_KEY=<Your TL API Key>
+
+# OpenSearch endpoint without 'http://' prefix
+OPENSEARCH_ENDPOINT=<Your OpenSearch Endpoint>
+```
+
 ### Installation
 
 Clone the repository and create the required directories:
