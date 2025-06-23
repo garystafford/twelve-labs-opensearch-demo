@@ -1,0 +1,216 @@
+{
+    "gist": {
+        "title": "A Day at the Intersection: Capturing the Flow of Traffic and Pedestrians",
+        "topics": [
+            "Urban Traffic and Pedestrian Movement"
+        ],
+        "hashtags": [
+            "StreetTraffic",
+            "Vehicles",
+            "Pedestrians",
+            "Intersection",
+            "UrbanScenes"
+        ]
+    },
+    "video_id": "6853656f3e86ee22b3162cbf",
+    "index_id": "68481c835b5b47d9b345c12d",
+    "summary": "The video captures a bustling urban intersection through the lens of a stationary camera positioned behind a blue metal fence. The scene opens with scooters zipping through the crosswalk, setting the tone for the continuous flow of traffic. A green truck and two cars soon follow, adding to the dynamic street life. A pink bus then crosses the frame from right to left, drawing attention with its vibrant color. The traffic continues with a white vehicle and one with a flatbed trailer, followed by several motorcycles passing by, illustrating the diverse modes of transportation. Amidst the vehicular traffic, a man on a bicycle enters from the bottom and rides towards the top, weaving through the crowd. Pedestrian activity is also highlighted, with a person in dark pants crossing the street from left to right, and another individual holding an umbrella walking across the pedestrian crossing, narrowly avoiding multiple approaching motorbikes. The video concludes with the pedestrians safely crossing, leaving the intersection momentarily quiet, emphasizing the rhythm and flow of urban life.",
+    "analysis": "The video captures a bustling intersection in Taiwan, where various vehicles such as scooters, cars, a green truck, a pink bus, and a white vehicle with a flatbed trailer move through the crosswalk. Motorcycles also pass by, adding to the traffic flow. Early in the video, a man on a bicycle enters from the bottom edge and rides towards the top. Midway through, a pedestrian wearing dark pants crosses the street from the left side, followed by another individual holding an umbrella walking across the pedestrian crossing as multiple motorbikes approach. The scene is framed by a construction site with blue and yellow barriers, and towards the end, the intersection becomes quieter with no further movement shown.",
+    "chapters": [
+        {
+            "chapter_number": 0,
+            "start": 0.0,
+            "end": 45.0,
+            "chapter_title": "Traffic and Bicycle Rider",
+            "chapter_summary": "The video begins with a view from behind a blue metal fence at a crosswalk. Several scooters, a green truck, two cars, a pink bus, and two more vehicles (one white and another with a flatbed trailer) pass through the intersection. More traffic continues moving through, including several motorcycles. A man riding a bicycle enters the scene from the bottom edge of the screen and rides towards the top."
+        },
+        {
+            "chapter_number": 1,
+            "start": 71.0,
+            "end": 112.0,
+            "chapter_title": "Pedestrians Crossing",
+            "chapter_summary": "A person wearing dark pants walks into the frame from the left side and crosses the street. Another individual holding an umbrella walks across the pedestrian crossing as multiple motorbikes approach them. After all pedestrians have crossed, the clip ends showing no further movement within this segment."
+        }
+    ],
+    "highlights": [
+        {
+            "start": 0.0,
+            "end": 5.0,
+            "highlight": "Scooters Passing",
+            "highlight_summary": "Several scooters pass through the intersection behind a blue metal fence."
+        },
+        {
+            "start": 71.0,
+            "end": 85.0,
+            "highlight": "Person Walking",
+            "highlight_summary": "A person in dark pants walks into the frame from the left and crosses the street."
+        },
+        {
+            "start": 86.0,
+            "end": 105.0,
+            "highlight": "Umbrella Pedestrian",
+            "highlight_summary": "An individual holding an umbrella walks across the pedestrian crossing as multiple motorbikes approach."
+        },
+        {
+            "start": 106.0,
+            "end": 112.0,
+            "highlight": "End of Movement",
+            "highlight_summary": "After all pedestrians have crossed, the clip ends with no further movement."
+        }
+    ],
+    "id": "6853656f3e86ee22b3162cbf",
+    "created_at": "2025-06-19T01:18:39Z",
+    "updated_at": null,
+    "system_metadata": {
+        "filename": "13239132-hd_1920_1080_50fps.mp4",
+        "duration": 112.361667,
+        "fps": 50.0,
+        "width": 1920,
+        "height": 1080,
+        "size": 72844586
+    },
+    "user_metadata": null,
+    "hls": {
+        "video_url": "https://deuqpmn4rs7j5.cloudfront.net/88d47efb7556bg3d95ce9441/796gg67g5f97ff3d5h63e73c/stream/ec888844-742g-6ac8-a3hc-c66d368ce0c0.m3u8",
+        "thumbnail_urls": [
+            "https://deuqpmn4rs7j5.cloudfront.net/88d47efb7556bg3d95ce9441/796gg67g5f97ff3d5h63e73c/thumbnails/ec888844-742g-6ac8-a3hc-c66d368ce0c0.0000001.jpg"
+        ],
+        "status": "COMPLETE",
+        "updated_at": "2025-06-19T01:19:08.904Z"
+    },
+    "source": null,
+    "segments": [
+        {
+            "start_offset_sec": 0.0,
+            "end_offset_sec": 9.363472,
+            "embedding_scope": "clip",
+            "embedding_option": "visual-text",
+            "segment_embedding": [
+                0.034297787,
+                -0.0010638289,
+                0.01824182
+            ]
+        },
+        {
+            "start_offset_sec": 9.363472,
+            "end_offset_sec": 18.726944,
+            "embedding_scope": "clip",
+            "embedding_option": "visual-text",
+            "segment_embedding": [
+                0.02694066,
+                0.018537117,
+                0.026755061
+            ]
+        },
+        {
+            "start_offset_sec": 18.726944,
+            "end_offset_sec": 28.090416,
+            "embedding_scope": "clip",
+            "embedding_option": "visual-text",
+            "segment_embedding": [
+                0.026583178,
+                0.014603035,
+                0.022988498
+            ]
+        },
+        {
+            "start_offset_sec": 28.090416,
+            "end_offset_sec": 37.453888,
+            "embedding_scope": "clip",
+            "embedding_option": "visual-text",
+            "segment_embedding": [
+                0.0315285,
+                0.007905193,
+                0.019084338
+            ]
+        },
+        {
+            "start_offset_sec": 37.453888,
+            "end_offset_sec": 46.81736,
+            "embedding_scope": "clip",
+            "embedding_option": "visual-text",
+            "segment_embedding": [
+                0.027154656,
+                0.011142625,
+                0.016917352
+            ]
+        },
+        {
+            "start_offset_sec": 46.81736,
+            "end_offset_sec": 56.180832,
+            "embedding_scope": "clip",
+            "embedding_option": "visual-text",
+            "segment_embedding": [
+                0.026198365,
+                -0.0031741383,
+                0.011604459
+            ]
+        },
+        {
+            "start_offset_sec": 56.180832,
+            "end_offset_sec": 65.544304,
+            "embedding_scope": "clip",
+            "embedding_option": "visual-text",
+            "segment_embedding": [
+                0.028630506,
+                -0.0027614415,
+                0.012159009
+            ]
+        },
+        {
+            "start_offset_sec": 65.544304,
+            "end_offset_sec": 74.907776,
+            "embedding_scope": "clip",
+            "embedding_option": "visual-text",
+            "segment_embedding": [
+                0.023781607,
+                0.004240687,
+                0.02622934
+            ]
+        },
+        {
+            "start_offset_sec": 74.907776,
+            "end_offset_sec": 84.27125,
+            "embedding_scope": "clip",
+            "embedding_option": "visual-text",
+            "segment_embedding": [
+                0.018795159,
+                0.009448217,
+                0.03670102
+            ]
+        },
+        {
+            "start_offset_sec": 84.27125,
+            "end_offset_sec": 93.63472,
+            "embedding_scope": "clip",
+            "embedding_option": "visual-text",
+            "segment_embedding": [
+                0.029571231,
+                0.0014580778,
+                0.04018287
+            ]
+        },
+        {
+            "start_offset_sec": 93.63472,
+            "end_offset_sec": 102.99819,
+            "embedding_scope": "clip",
+            "embedding_option": "visual-text",
+            "segment_embedding": [
+                0.029271275,
+                -0.006086942,
+                0.036708936
+            ]
+        },
+        {
+            "start_offset_sec": 102.99819,
+            "end_offset_sec": 112.361664,
+            "embedding_scope": "clip",
+            "embedding_option": "visual-text",
+            "segment_embedding": [
+                0.02268905,
+                0.0030316901,
+                0.021492222
+            ]
+        }
+    ]
+}
