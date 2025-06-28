@@ -15,6 +15,7 @@ Code for the Medium blog post, [Multi-Vector Semantic Search: Advanced Video Sea
 ├── videos/                               # Source videos
 │   ├── pexels/
 ├── sample_document.json                  # Sample OpenSearch document
+├── docker-compose.yml                    # OpenSearch Docker Swarm file
 └── twelve-labs-demo-nested-public.ipynb  # All code for blog post demonstration
 ```
 
