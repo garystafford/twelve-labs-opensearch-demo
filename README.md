@@ -70,7 +70,7 @@ Access the Jupyter Notebook for all code:
 
 [twelve-labs-demo-nested-public.ipynb](twelve-labs-demo-nested-public.ipynb)
 
-## Running OpenSearch in Docker
+## Alternative: Running OpenSearch in Docker
 
 As an alternative to AWS, you can run OpenSearch locally using Docker.
 
