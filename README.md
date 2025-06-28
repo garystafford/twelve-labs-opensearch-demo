@@ -70,6 +70,42 @@ Access the Jupyter Notebook for all code:
 
 [twelve-labs-demo-nested-public.ipynb](twelve-labs-demo-nested-public.ipynb)
 
+## Running OpenSearch in Docker
+
+As an alternative to AWS, you can run OpenSearch locally using Docker.
+
+```bash
+docker swarm init
+
+docker stack deploy -c docker-compose.yml <stack_name>
+```
+
+In the Jupyter Notebook, update the `os_client` to use the Docker-based OpenSearch instance:
+
+Existing Amazon OpenSearch Client:
+
+```python
+os_client = OpenSearch(
+    hosts=[{"host": os_host, "port": 443}],
+    http_auth=auth,
+    use_ssl=True,
+    verify_certs=True,
+    connection_class=RequestsHttpConnection,
+    pool_maxsize=20,
+)
+```
+
+Revised Docker-based OpenSearch Client:
+
+```python
+os_client = OpenSearch(
+    hosts=[{"host": "localhost", "port": 9200}],
+    http_auth=("admin", "OpenSearch123"),
+    use_ssl=True,
+    verify_certs=False,
+)
+```
+
 ---
 
 _The contents of this repository represent my viewpoints and not those of my past or current employers, including Amazon Web Services (AWS). All third-party libraries, modules, plugins, and SDKs are the property of their respective owners._
