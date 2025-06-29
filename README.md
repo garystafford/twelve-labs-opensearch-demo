@@ -73,10 +73,12 @@ Access the Jupyter Notebook for all code:
 
 ## Alternative: Running OpenSearch in Docker
 
-As an alternative to AWS, you can run OpenSearch locally using Docker.
+As an alternative to AWS, you can run OpenSearch locally using Docker. This is insecure and intended only for development environments.
 
 ```bash
 docker swarm init
+
+# note the stack name
 
 docker stack deploy -c docker-compose.yml <stack_name>
 ```
@@ -99,6 +101,12 @@ os_client = OpenSearch(
 Revised Docker-based OpenSearch Client:
 
 ```python
+import warnings
+
+# Suppress warnings related to unverified HTTPS requests and SSL connections
+warnings.filterwarnings('ignore', message='Unverified HTTPS request')
+warnings.filterwarnings('ignore', message='Connecting to https://localhost:9200 using SSL')
+
 os_client = OpenSearch(
     hosts=[{"host": "localhost", "port": 9200}],
     http_auth=("admin", "OpenSearch123"),
