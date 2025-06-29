@@ -78,9 +78,10 @@ As an alternative to AWS, you can run OpenSearch locally using Docker. This is i
 ```bash
 docker swarm init
 
-# note the stack name
+SWARM_ID=$(docker node ls --format "{{.ID}}")
+docker stack deploy -c docker-compose.yml $SWARM_ID
 
-docker stack deploy -c docker-compose.yml <stack_name>
+docker service ls
 ```
 
 In the Jupyter Notebook, update the `os_client` to use the Docker-based OpenSearch instance:
