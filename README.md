@@ -16,6 +16,7 @@ Code for the Medium blog post, [Multi-Vector Semantic Search: Advanced Video Sea
 │   ├── pexels/
 ├── sample_document.json                  # Sample OpenSearch document
 ├── sample_text_embedding.json            # Sample dense vector embedding from text
+├── sample_image.jpg                      # Sample image to create embedding from
 ├── docker-compose.yml                    # OpenSearch Docker Swarm file
 └── twelve-labs-demo-nested-public.ipynb  # All code for blog post demonstration
 ```
