@@ -52,18 +52,39 @@ Clone the repository and create the required directories:
 ```bash
 git clone https://github.com/garystafford/twelve-labs-opensearch-demo.git
 cd twelve-labs-opensearch-demo
+```
 
+Mac:
+
+```bash
 mkdir -p "videos/pexels"
 mkdir -p "output/pexels"
 mkdir -p "documents/pexels"
 ```
 
+Windows:
+
+```bat
+mkdir "videos\pexels"
+mkdir "output\pexels"
+mkdir "documents\pexels"
+```
+
 Create a Python virtual environment for the Jupyter Notebook:
+
+Mac:
 
 ```bash
 python -m pip install virtualenv -Uq
 python -m venv .venv
 source .venv/bin/activate
+```
+
+Windows:
+
+```bat
+python -m venv .venv
+.venv\Scripts\activate
 ```
 
 ### Run the Code
@@ -76,11 +97,24 @@ Access the Jupyter Notebook for all code:
 
 As an alternative to AWS, you can run OpenSearch locally using Docker. This is insecure and intended only for development environments.
 
+Mac:
+
 ```bash
 docker swarm init
 
 SWARM_ID=$(docker node ls --format "{{.ID}}")
 docker stack deploy -c docker-compose.yml $SWARM_ID
+
+docker service ls
+```
+
+Windows:
+
+```bat
+docker swarm init
+
+for /f "delims=" %x in ('docker node ls --format "{{.ID}}"') do set SWARM_ID=%x
+docker stack deploy -c docker-compose.yml %SWARM_ID%
 
 docker service ls
 ```
@@ -110,7 +144,7 @@ warnings.filterwarnings('ignore', message='Unverified HTTPS request')
 warnings.filterwarnings('ignore', message='Connecting to https://localhost:9200 using SSL')
 
 os_client = OpenSearch(
-    hosts=[{"host": "localhost", "port": 9200}],
+    hosts=[{"host": os_host, "port": 9200}],
     http_auth=("admin", "OpenSearch123"),
     use_ssl=True,
     verify_certs=False,
@@ -120,3 +154,4 @@ os_client = OpenSearch(
 ---
 
 _The contents of this repository represent my viewpoints and not those of my past or current employers, including Amazon Web Services (AWS). All third-party libraries, modules, plugins, and SDKs are the property of their respective owners._
+ 
