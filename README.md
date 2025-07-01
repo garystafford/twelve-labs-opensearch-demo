@@ -8,17 +8,17 @@ Code for the Medium blog post, [Multi-Vector Semantic Search: Advanced Video Sea
 
 ```text
 .
-├── documents/                            # OpenSearch documents
-│   ├── pexels/
-├── output/                               # Generated analyses and embeddings
-│   ├── pexels/
-├── videos/                               # Source videos
-│   ├── pexels/
-├── sample_document.json                  # Sample OpenSearch document
-├── sample_text_embedding.json            # Sample dense vector embedding from text
-├── sample_image.jpg                      # Sample image to create embedding from
-├── docker-compose.yml                    # OpenSearch Docker Swarm file
-└── twelve-labs-demo-nested-public.ipynb  # All code for blog post demonstration
+├── documents/
+│   ├── pexels/                             # OpenSearch documents
+├── output/
+│   ├── pexels/                             # Generated analyses and embeddings
+├── videos/
+│   ├── pexels/                             # Source videos
+├── sample_document.json                    # Sample OpenSearch document
+├── sample_text_embedding.json              # Sample dense vector embedding from text
+├── sample_image.jpg                        # Sample image to create embedding from
+├── docker-compose.yml                      # OpenSearch Docker Swarm file
+└── twelve-labs-demo-nested-public.ipynb    # All code for blog post demonstration
 ```
 
 ## Usage Instructions
