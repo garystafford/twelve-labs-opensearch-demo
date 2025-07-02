@@ -154,6 +154,8 @@ os_client = OpenSearch(
 
 ## Basic OpenSearch Command
 
+Interact your OpenSearch index in the Dev Tools tab of the OpenSearch Dashboards UI.
+
 ```text
 GET pexels-video-index/_settings
 
