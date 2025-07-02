@@ -152,7 +152,24 @@ os_client = OpenSearch(
 )
 ```
 
+## Basic OpenSearch Command
+
+```text
+GET pexels-video-index/_settings
+
+GET pexels-video-index/_count
+
+GET pexels-video-index/_search
+{
+  "query": {
+    "match": {
+      "system_metadata.filename": "15111760-sd_640_360_25fps.mp4"
+    }
+  },
+  "size": 1
+}
+```
+
 ---
 
 _The contents of this repository represent my viewpoints and not those of my past or current employers, including Amazon Web Services (AWS). All third-party libraries, modules, plugins, and SDKs are the property of their respective owners._
- 
