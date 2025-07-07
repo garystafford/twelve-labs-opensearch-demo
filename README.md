@@ -52,7 +52,7 @@ mkdir "output\pexels"
 mkdir "documents\pexels"
 ```
 
-Create a Python virtual environment for the Jupyter Notebook:
+### Create a Python virtual environment for the Jupyter Notebook:
 
 Mac:
 
