@@ -13,14 +13,14 @@ Code for the Medium blog post, [Multi-Vector Semantic Search: Advanced Video Sea
 
 ## Installation
 
-Clone the repository:
+### Clone the repository
 
 ```bash
 git clone https://github.com/garystafford/twelve-labs-opensearch-demo.git
 cd twelve-labs-opensearch-demo
 ```
 
-Rename `python-dotenv` file
+### Rename `python-dotenv` file:
 
 Mac:
 
@@ -28,15 +28,13 @@ Mac:
 mv env.txt .env
 ```
 
-Rename `python-dotenv` file
-
 Windows:
 
 ```bat
 rename env.txt .env
 ```
 
-Create the required directories
+### Create the required directories
 
 Mac:
 
