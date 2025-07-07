@@ -102,11 +102,11 @@ docker service ls
 Interact your OpenSearch index in the Dev Tools tab of the OpenSearch Dashboards UI.
 
 ```text
-GET pexels-video-index/_settings
+GET pexels-index/_settings
 
-GET pexels-video-index/_count
+GET pexels-index/_count
 
-GET pexels-video-index/_search
+GET pexels-index/_search
 {
   "query": {
     "match_all": {}
