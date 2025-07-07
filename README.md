@@ -20,19 +20,25 @@ git clone https://github.com/garystafford/twelve-labs-opensearch-demo.git
 cd twelve-labs-opensearch-demo
 ```
 
-Rename `python-dotenv` file (Mac):
+Rename `python-dotenv` file
+
+Mac:
 
 ```bash
 mv env.txt .env
 ```
 
-Rename `python-dotenv` file (Windows):
+Rename `python-dotenv` file
+
+Windows:
 
 ```bat
 rename env.txt .env
 ```
 
-Create the required directories (Mac):
+Create the required directories
+
+Mac:
 
 ```bash
 mkdir -p "videos/pexels"
@@ -40,7 +46,7 @@ mkdir -p "output/pexels"
 mkdir -p "documents/pexels"
 ```
 
-Create the required directories (Windows):
+Windows:
 
 ```bat
 mkdir "videos\pexels"
