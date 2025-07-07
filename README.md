@@ -13,30 +13,26 @@ Code for the Medium blog post, [Multi-Vector Semantic Search: Advanced Video Sea
 
 ## Installation
 
-### Clone the repository
+Clone the repository:
 
 ```bash
 git clone https://github.com/garystafford/twelve-labs-opensearch-demo.git
 cd twelve-labs-opensearch-demo
 ```
 
-### Rename `python-dotenv` file:
-
-Mac:
+Rename `python-dotenv` file (Mac):
 
 ```bash
 mv env.txt .env
 ```
 
-Windows:
+Rename `python-dotenv` file (Windows):
 
 ```bat
 rename env.txt .env
 ```
 
-### Create the required directories
-
-Mac:
+Create the required directories (Mac):
 
 ```bash
 mkdir -p "videos/pexels"
@@ -44,7 +40,7 @@ mkdir -p "output/pexels"
 mkdir -p "documents/pexels"
 ```
 
-Windows:
+Create the required directories (Windows):
 
 ```bat
 mkdir "videos\pexels"
@@ -52,7 +48,7 @@ mkdir "output\pexels"
 mkdir "documents\pexels"
 ```
 
-### Create a Python virtual environment
+Create a Python virtual environment for the Jupyter Notebook:
 
 Mac:
 
@@ -71,7 +67,7 @@ python -m venv .venv
 
 ## Run the Code
 
-Access the Jupyter Notebook for all the code:
+Access the Jupyter Notebook for all code:
 
 [twelve-labs-demo-nested-public.ipynb](twelve-labs-demo-nested-public.ipynb)
 
@@ -99,6 +95,23 @@ for /f "delims=" %x in ('docker node ls --format "{{.ID}}"') do set SWARM_ID=%x
 docker stack deploy -c docker-compose.yml %SWARM_ID%
 
 docker service ls
+```
+
+## Basic OpenSearch Command
+
+Interact your OpenSearch index in the Dev Tools tab of the OpenSearch Dashboards UI.
+
+```text
+GET pexels-video-index/_settings
+
+GET pexels-video-index/_count
+
+GET pexels-video-index/_search
+{
+  "query": {
+    "match_all": {}
+  }
+}
 ```
 
 ---
