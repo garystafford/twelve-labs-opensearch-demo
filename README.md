@@ -73,7 +73,7 @@ Access the Jupyter Notebook for all code:
 
 ## Alternative: Running OpenSearch in Docker
 
-As an alternative to AWS, you can run OpenSearch locally using Docker. This is insecure and intended only for development environments.
+As an alternative to AWS, you can run OpenSearch locally using Docker. This is intended for development environments only and is not secure.
 
 Mac:
 
@@ -99,7 +99,7 @@ docker service ls
 
 ## Basic OpenSearch Command
 
-Interact your OpenSearch index in the Dev Tools tab of the OpenSearch Dashboards UI.
+You can interact with your OpenSearch index in the Dev Tools tab of the OpenSearch Dashboards UI.
 
 ```text
 GET pexels-index/_settings
